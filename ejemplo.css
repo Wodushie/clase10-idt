@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --robots:url(https://www.expoeducacion.com.py/futbot-elemento-v2.webp);
+    --fondo: url(https://www.expoeducacion.com.py/usar/futbot_fondo.webp);
+    --titulo: url(https://www.expoeducacion.com.py/usar/FutBot_t%C#%ADtulo.webp);
+    --logo: url(https://www.expoeducacion.com.py/usar/futbot_logos.webp);
+}
+.contenedor, section{
+    height: 50vh;
+    width: 80%;
+    margin-inline: auto;
+}
+
+.contenedor{
+    background-image: var(--logo),var(--titulo),var(--robots), var(--fondo);
+    background-repeat: repeat-x, no-repeat, no-repeat;
+    background-size: min(500px, 50%), auto, contain, cover;
+    background-position-x: left, initial, right, initial;
+    background-position-y: top, 90%, center, top;
+
+}
